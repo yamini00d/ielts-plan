@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IELTS 5-Week Plan</title>
+<meta name="description" content="IELTS General Training study plan, Nov 18 to Dec 20, 2026. Goal CLB 10, floor CLB 9.">
+<style>
+  :root {
+    --bg: #f7f6f2;
+    --card: #ffffff;
+    --ink: #1c2330;
+    --muted: #5b6575;
+    --line: #e2e0d8;
+    --accent: #1f6f6b;
+    --accent-soft: #dff0ee;
+    --warn-bg: #fff4d6;
+    --warn-line: #e8c766;
+    --l: #2b6cb0;
+    --r: #2f855a;
+    --w: #b7791f;
+    --s: #9b2c6b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12161c;
+      --card: #1a2029;
+      --ink: #e9edf3;
+      --muted: #9aa5b5;
+      --line: #2a3340;
+      --accent: #5fc2bb;
+      --accent-soft: #19332f;
+      --warn-bg: #3a3118;
+      --warn-line: #7a6624;
+      --l: #7db4f0;
+      --r: #7fd1a3;
+      --w: #f0c273;
+      --s: #e79ac6;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 64px; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  a { color: var(--accent); }
+  header { padding: 40px 20px 24px; max-width: 920px; margin: 0 auto; }
+  header h1 { margin: 0 0 6px; font-size: 2rem; line-height: 1.2; }
+  header p { margin: 0; color: var(--muted); }
+  nav {
+    position: sticky; top: 0; z-index: 10; background: var(--bg);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .inner {
+    max-width: 920px; margin: 0 auto; padding: 10px 20px;
+    display: flex; gap: 8px; overflow-x: auto; white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none; color: var(--ink); font-size: .9rem;
+    padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--card);
+  }
+  nav a:hover { border-color: var(--accent); }
+  main { max-width: 920px; margin: 0 auto; padding: 8px 20px 60px; }
+  section { margin-top: 36px; }
+  h2 { font-size: 1.5rem; margin: 0 0 12px; }
+  h3 { font-size: 1.1rem; margin: 22px 0 8px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 18px 20px; margin: 12px 0;
+  }
+  .warn {
+    background: var(--warn-bg); border: 1px solid var(--warn-line);
+    border-radius: 12px; padding: 14px 18px; margin: 14px 0;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; }
+  .tablewrap { overflow-x: auto; }
+  .pill {
+    display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: .8rem; font-weight: 600;
+    background: var(--accent-soft); color: var(--accent);
+  }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .week h3 { margin-top: 0; }
+  .week .dates { color: var(--muted); font-size: .9rem; margin: -4px 0 8px; }
+  ul, ol { margin: 6px 0 6px 20px; padding: 0; }
+  li { margin: 4px 0; }
+  .skill-l { border-left: 5px solid var(--l); }
+  .skill-r { border-left: 5px solid var(--r); }
+  .skill-w { border-left: 5px solid var(--w); }
+  .skill-s { border-left: 5px solid var(--s); }
+  .target { font-weight: 600; }
+  .check { display: flex; gap: 10px; align-items: flex-start; margin: 6px 0; }
+  .check input { margin-top: 6px; }
+  input[type=text], input[type=number] {
+    width: 100%; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line);
+    background: var(--bg); color: var(--ink); font: inherit;
+  }
+  footer { max-width: 920px; margin: 0 auto; padding: 0 20px 40px; color: var(--muted); font-size: .85rem; }
+  @media (max-width: 560px) {
+    header h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.3rem; }
+  }
+  @media print { nav { display: none; } body { background: #fff; color: #000; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>IELTS General Training: 5-Week Plan</h1>
+  <p>Wed Nov 18 to Sun Dec 20, 2026 &nbsp;|&nbsp; Goal: CLB 10 (floor: CLB 9) &nbsp;|&nbsp; Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.5</p>
+</header>
+
+<nav>
+  <div class="inner">
+    <a href="#overview">Overview</a>
+    <a href="#weeks">Weekly plan</a>
+    <a href="#listening">Listening</a>
+    <a href="#reading">Reading</a>
+    <a href="#writing">Writing</a>
+    <a href="#speaking">Speaking</a>
+    <a href="#mocks">Mock exams</a>
+    <a href="#sites">Learning sites</a>
+    <a href="#testday">Test day</a>
+    <a href="#tracker">Tracker</a>
+  </div>
+</nav>
+
+<main>
+
+<section id="overview">
+  <h2>Overview</h2>
+
+  <div class="warn">
+    <strong>Deadline check.</strong> His current results expire on <strong>Dec 23, 2026</strong>.
+    The test itself has to be sat before that date, and results usually take a few days to come back for the computer-delivered test. So <strong>aim to sit the test between Fri Dec 4 and Thu Dec 10</strong>, and book the earliest General Training seat you can get in that window (through IDP or the British Council). Don't plan the real test later than about Dec 10, so a backup attempt still fits before Dec 23. If a retake is needed, book that seat right after the first test. Weeks 4 and 5 are test week and backup, not extra prep time. This plan is fully self-study: no paid classes or coaches.
+  </div>
+
+  <div class="card">
+    <h3 style="margin-top:0">What you need</h3>
+    <p>The goal is CLB 10, which needs all four sections at the CLB 10 band. The floor is CLB 9, which needs all four at the CLB 9 band. Aiming at CLB 10 gives a cushion, so that a slightly off day still lands on CLB 9. One section dropping by half a band costs real points.</p>
+    <div class="tablewrap">
+    <table>
+      <thead><tr><th>Section</th><th>CLB 9 floor</th><th>CLB 10 goal</th><th>Rough raw score (Listening, Reading)</th></tr></thead>
+      <tbody>
+        <tr><td>Listening</td><td>8.0</td><td class="target">8.5</td><td>floor about 35/40, goal about 37/40</td></tr>
+        <tr><td>Reading (General Training)</td><td>7.0</td><td class="target">8.0</td><td>floor about 34/40, goal about 38/40</td></tr>
+        <tr><td>Writing</td><td>7.0</td><td class="target">7.5</td><td>marked on four criteria</td></tr>
+        <tr><td>Speaking</td><td>7.0</td><td class="target">7.5</td><td>marked on four criteria</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p style="color:var(--muted); font-size:.9rem">Raw-score conversions vary slightly from test to test. Use them as a guide.</p>
+  </div>
+
+  <div class="card">
+    <h3 style="margin-top:0">A 4-hour day</h3>
+    <ul>
+      <li><strong>60 min</strong> Writing (one timed piece, then review)</li>
+      <li><strong>60 min</strong> Reading (timed sets)</li>
+      <li><strong>45 min</strong> Speaking (record, listen back, repeat)</li>
+      <li><strong>45 min</strong> Listening (one section, then check errors)</li>
+      <li><strong>30 min</strong> Error log (write down why each mistake happened)</li>
+    </ul>
+    <p>Take one lighter day each week (about 2 hours). Use the heaviest time on whichever section scored lowest in the last mock.</p>
+  </div>
+</section>
+
+<section id="weeks">
+  <h2>Weekly plan: what you should have done by Sunday night</h2>
+  <div class="grid">
+    <div class="card week">
+      <h3>Week 1 <span class="pill">Diagnose</span></h3>
+      <div class="dates">Wed Nov 18 to Sun Nov 22</div>
+      <ul>
+        <li>Book the General Training test, computer-delivered, Dec 4 to 8.</li>
+        <li>Full timed mock (all four sections). Mark Listening and Reading yourself.</li>
+        <li>Read the public band descriptors for Writing and Speaking.</li>
+        <li>One piece of Writing and one Speaking recording reviewed by someone else.</li>
+        <li>Error log started, with your weakest two skills named.</li>
+      </ul>
+    </div>
+    <div class="card week">
+      <h3>Week 2 <span class="pill">Build</span></h3>
+      <div class="dates">Mon Nov 23 to Sun Nov 29</div>
+      <ul>
+        <li>Daily timed Reading sets, with extra time on the long final text.</li>
+        <li>Listening Parts 3 and 4 drilled, with every wrong answer reviewed.</li>
+        <li>3 letters and 3 essays written, at least 2 scored against the band descriptors by a second person or a free AI tool.</li>
+        <li>Speaking Part 2 monologues daily, one mock with someone playing the examiner.</li>
+        <li>Full mock 2 on Sat or Sun (Nov 28 or 29).</li>
+      </ul>
+    </div>
+    <div class="card week">
+      <h3>Week 3 <span class="pill">Exam ready</span></h3>
+      <div class="dates">Mon Nov 30 to Sun Dec 6</div>
+      <ul>
+        <li>Two full timed Reading tests and two full Listening tests.</li>
+        <li>Two full 60-minute Writing sessions, reviewed.</li>
+        <li>Two full Speaking mocks with feedback; top 3 fixes made.</li>
+        <li>Full mock 3 on a computer (dress rehearsal), about 4 days before the test.</li>
+        <li>Test confirmed, ID and route checked.</li>
+      </ul>
+    </div>
+    <div class="card week">
+      <h3>Week 4 <span class="pill">Test week</span></h3>
+      <div class="dates">Mon Dec 7 to Sun Dec 13</div>
+      <ul>
+        <li>Light review only: error log, a few short sets, a speaking warm-up.</li>
+        <li>No new material in the last two days, and sleep well.</li>
+        <li>Sit the test (window Dec 4 to 10), then wait for results.</li>
+        <li>If the test is already done, rest and note any weak spots.</li>
+      </ul>
+    </div>
+    <div class="card week">
+      <h3>Week 5 <span class="pill">Backup</span></h3>
+      <div class="dates">Mon Dec 14 to Sun Dec 20</div>
+      <ul>
+        <li>Only needed if a section came in below the CLB 9 floor, or you want to retry for CLB 10 and still have time.</li>
+        <li>His current results expire Dec 23, so a retake has to be sat early enough for the new results to arrive before then.</li>
+        <li>Drill the one section that missed, then rebook.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="listening">
+  <h2>Listening</h2>
+  <div class="card skill-l">
+    <p><span class="target">Goal: 8.5</span> (about 37/40). Floor: 8.0 (about 35/40).</p>
+    <p>Listening is the same on Academic and General Training. The audio plays once, and on the computer test you type answers, so spelling and plurals count.</p>
+
+    <h3>Practice tests</h3>
+    <ul>
+      <li><a href="https://ielts.idp.com/prepare/all-test-types/reading/practice-test?filter=listening" target="_blank" rel="noopener">IDP practice test library: Listening</a> (start here)</li>
+      <li><a href="https://ielts.idp.com/about/ielts-listening" target="_blank" rel="noopener">IDP: about the Listening test and its question types</a></li>
+      <li><a href="https://takeielts.org/prepare" target="_blank" rel="noopener">British Council: Take IELTS prepare</a></li>
+    </ul>
+
+    <h3>Weekly milestones</h3>
+    <ol>
+      <li><strong>Week 1:</strong> one full timed test. Sort every mistake into a type: spelling, plural or singular, numbers, distractor, map or diagram, multiple choice.</li>
+      <li><strong>Week 2:</strong> drill Parts 3 and 4 (the hardest). Shadow a recording for 15 minutes a day. Three sections reviewed in detail.</li>
+      <li><strong>Week 3:</strong> two full tests with typed answers. At least one scoring 37/40 or better.</li>
+      <li><strong>Week 4:</strong> one short section a day, no new material, error log only.</li>
+      <li><strong>Week 5:</strong> only if retaking.</li>
+    </ol>
+
+    <h3>Common mistakes</h3>
+    <ul>
+      <li>Missing a plural "s" or misspelling a word he heard correctly.</li>
+      <li>Following the first answer he hears when the speaker corrects themselves.</li>
+      <li>Losing his place in Part 3 and Part 4 discussions.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="reading">
+  <h2>Reading (General Training)</h2>
+  <div class="card skill-r">
+    <p><span class="target">Goal: 8.0</span> (about 38/40). Floor: 7.0 (about 34/40).</p>
+    <p>General Training Reading is 60 minutes with 40 questions across three sections, and it is scored more harshly around band 7 than Academic. Section 3 has the longest texts, so it needs the most time.</p>
+
+    <h3>Practice tests</h3>
+    <ul>
+      <li><a href="https://ielts.idp.com/prepare/all-test-types/reading" target="_blank" rel="noopener">IDP Reading hub</a> (start here)</li>
+      <li><a href="https://ielts.idp.com/prepare/all-test-types/reading/practice-test" target="_blank" rel="noopener">IDP Reading practice test library</a> (look for the General Training items)</li>
+      <li><a href="https://demo-ielts.inspera.com/player/?assessmentRunId=131013388&amp;context=exam#/section/128121930/question/128121896/scorableItem/1" target="_blank" rel="noopener">IDP computer-delivered Reading familiarisation test</a> (answers: <a href="https://assets.ctfassets.net/unrdeg6se4ke/2ggjbjdFDSU7xXTp7Eqxjp/ef3ce074fbb5d9e47db8ee4b3ad45cb0/IELTS_familiarisation_test_Reading_answers.pdf" target="_blank" rel="noopener">PDF</a>)</li>
+      <li><a href="https://takeielts.org/prepare" target="_blank" rel="noopener">British Council: Take IELTS prepare</a></li>
+    </ul>
+
+    <h3>General Training question-type drills (IDP, PDF)</h3>
+    <ul>
+      <li><a href="https://assets.ctfassets.net/unrdeg6se4ke/3RQmYywu8GH9OHXKqGXgTX/4c7cc28949b790af4c9199161acba1bc/Free_practice_test_-_General_Training_Reading_-_Identifying_Information_-_Sample_Task.pdf" target="_blank" rel="noopener">Identifying Information (True/False/Not Given)</a></li>
+      <li><a href="https://assets.ctfassets.net/unrdeg6se4ke/5elzLRM42IgoUufEGPiQie/f161196df5fa6b9520a15edad4bb94a5/Free_practice_test_-_General_Training_Reading_-_Matching_Headings_-_Sample_Task.pdf" target="_blank" rel="noopener">Matching Headings</a></li>
+      <li><a href="https://assets.ctfassets.net/unrdeg6se4ke/2xdgPRzFEBex6lEQHNvTKv/4995646676214f412d4f428d54f98c5b/Free_practice_test_-_General_Training_Reading_-_Matching_Information_-_Sample_Task.pdf" target="_blank" rel="noopener">Matching Information</a></li>
+      <li><a href="https://assets.ctfassets.net/unrdeg6se4ke/1VJSjlQNIxEM1Sq6QIReo4/55bebc929628bbb85049ac2c79438612/Free_practice_test_-_General_Training_Reading_-_Matching_Features_-_Sample_Task.pdf" target="_blank" rel="noopener">Matching Features</a></li>
+      <li><a href="https://assets.ctfassets.net/unrdeg6se4ke/5lm8n8dacUfFAGKg36dqK7/6fdb574d353684df718b38c5836234bb/Free_practice_test_-_General_Training_Reading_-_Short_Answer_-_Sample_Task.pdf" target="_blank" rel="noopener">Short Answer</a></li>
+    </ul>
+
+    <h3>Weekly milestones</h3>
+    <ol>
+      <li><strong>Week 1:</strong> one full 60-minute test. Record the time spent and the score in each section, and which question types lost marks.</li>
+      <li><strong>Week 2:</strong> daily timed sets. Spend extra time on Section 3 and on True/False/Not Given questions. Practise spotting paraphrases.</li>
+      <li><strong>Week 3:</strong> two full timed tests. The second one at 36/40 or better, working towards 38.</li>
+      <li><strong>Week 4:</strong> short review sets and the error log.</li>
+      <li><strong>Week 5:</strong> only if retaking.</li>
+    </ol>
+
+    <h3>Common mistakes</h3>
+    <ul>
+      <li>Spending too long on Section 1 and 2, then rushing the hardest texts.</li>
+      <li>Mixing up False and Not Given.</li>
+      <li>Not checking that the answer is copied exactly from the text.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="writing">
+  <h2>Writing</h2>
+  <div class="card skill-w">
+    <p><span class="target">Goal: 7.5.</span> Floor: 7.0.</p>
+    <p>60 minutes in total. Task 1 is a letter (at least 150 words, about 20 minutes). Task 2 is an essay (at least 250 words, about 40 minutes) and counts for more of the mark than Task 1. Writing is marked on Task Achievement or Response, Coherence and Cohesion, Lexical Resource, and Grammar.</p>
+
+    <h3>Practice tests</h3>
+    <ul>
+      <li><a href="https://takeielts.britishcouncil.org/prepare-test/practice-tests/writing-practice-test-1-general-training" target="_blank" rel="noopener">British Council General Training Writing practice test</a></li>
+      <li><a href="https://takeielts.britishcouncil.org/take-ielts/prepare/writing/general-training/task-1" target="_blank" rel="noopener">British Council sample tasks and examiner comments</a></li>
+      <li><a href="https://ielts.idp.com/prepare/all-test-types/reading/practice-test?filter=writing" target="_blank" rel="noopener">IDP practice test library: Writing</a></li>
+      <li><a href="https://ielts.idp.com/about/ielts-writing" target="_blank" rel="noopener">IDP: about the Writing test and how it is marked</a></li>
+      <li><a href="https://ieltsliz.com/useful-websites-and-resources-for-ielts/" target="_blank" rel="noopener">IELTS Liz: sample letters, essay questions and band descriptors</a></li>
+    </ul>
+
+    <h3>Weekly milestones</h3>
+    <ol>
+      <li><strong>Week 1:</strong> read the public band descriptors. Write one letter (20 minutes) and one essay (40 minutes). Self-mark them, then get one reviewed.</li>
+      <li><strong>Week 2:</strong> three letters (formal, semi-formal, informal) and three essays. At least two scored against the public band descriptors by a second person or a free AI tool. Learn a letter structure and an essay structure.</li>
+      <li><strong>Week 3:</strong> two full 60-minute sessions under exam conditions, both reviewed. Work on the single weakest criterion.</li>
+      <li><strong>Week 4:</strong> one short piece a day for warm-up, and rewrites of earlier mistakes.</li>
+      <li><strong>Week 5:</strong> only if retaking.</li>
+    </ol>
+
+    <h3>Common mistakes</h3>
+    <ul>
+      <li>Running over 20 minutes on Task 1 and rushing the essay.</li>
+      <li>Not answering every part of the question or the bullet points in the letter.</li>
+      <li>Wrong tone for the person the letter is addressed to.</li>
+      <li>Repeating the same sentence patterns, or making small grammar errors he doesn't catch.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="speaking">
+  <h2>Speaking</h2>
+  <div class="card skill-s">
+    <p><span class="target">Goal: 7.5.</span> Floor: 7.0.</p>
+    <p>11 to 14 minutes with an examiner: Part 1 (personal questions), Part 2 (a cue card, 1 to 2 minutes of talking), Part 3 (a deeper discussion). It is marked on fluency, vocabulary, grammar and pronunciation.</p>
+
+    <h3>Practice tests</h3>
+    <ul>
+      <li><a href="https://ielts.idp.com/prepare/all-test-types/reading/practice-test?filter=speaking" target="_blank" rel="noopener">IDP practice test library: Speaking</a></li>
+      <li><a href="https://ielts.idp.com/about/ielts-speaking" target="_blank" rel="noopener">IDP: about the Speaking test and how it is marked</a></li>
+      <li><a href="https://ieltsliz.com/useful-websites-and-resources-for-ielts/" target="_blank" rel="noopener">IELTS Liz: Part 1, 2 and 3 questions and band descriptors</a></li>
+      <li><a href="https://ielts.cathoven.com/ielts/questions" target="_blank" rel="noopener">Cathoven: free practice with AI feedback</a> (use as a rough guide only)</li>
+    </ul>
+
+    <h3>Weekly milestones</h3>
+    <ol>
+      <li><strong>Week 1:</strong> record a full baseline (Parts 1 to 3) and listen back. Note fillers, long pauses and repeated words. One mock with another person as examiner.</li>
+      <li><strong>Week 2:</strong> a Part 2 cue card every day, speaking for the full 2 minutes. Practise Part 3 answers with a reason and an example. One mock with someone playing the examiner, using the public speaking band descriptors.</li>
+      <li><strong>Week 3:</strong> two full mocks with feedback. Fix the top three issues from them.</li>
+      <li><strong>Week 4:</strong> short daily warm-ups only, and a final practice the day before.</li>
+      <li><strong>Week 5:</strong> only if retaking.</li>
+    </ol>
+
+    <h3>Common mistakes</h3>
+    <ul>
+      <li>Short answers in Part 1 and stopping early in Part 2.</li>
+      <li>Memorised answers that sound unnatural.</li>
+      <li>Long pauses to search for a word instead of rephrasing.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="mocks">
+  <h2>Mock exam schedule</h2>
+  <div class="card">
+    <div class="tablewrap">
+    <table>
+      <thead><tr><th>Mock</th><th>When</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Mock 1</td><td>Week 1 (Nov 18 to 22)</td><td>Baseline, find the weakest sections</td></tr>
+        <tr><td>Mock 2</td><td>Week 2 (Nov 28 or 29)</td><td>Check progress and adjust the daily split</td></tr>
+        <tr><td>Mock 3</td><td>Week 3 (about 4 days before the test)</td><td>Dress rehearsal on a computer, full timing</td></tr>
+        <tr><td>Mock 4</td><td>Week 5, only if retaking (Dec 14 to 20)</td><td>Check the weak section before rebooking</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p>For each mock: do all four sections in one sitting where you can, mark Listening and Reading from the answer key, and score Writing and Speaking against the public band descriptors, ideally with a second person or a free AI tool.</p>
+  </div>
+</section>
+
+<section id="sites">
+  <h2>Learning sites</h2>
+  <div class="card">
+    <ul>
+      <li><a href="https://takeielts.org/prepare" target="_blank" rel="noopener">British Council: Take IELTS</a> for official practice tests, sample answers and examiner comments.</li>
+      <li><a href="https://ielts.idp.com/diagnostic-tool-preparation" target="_blank" rel="noopener">IDP diagnostic tool</a> for a quick rough check of his level.</li>
+      <li><a href="https://ieltsliz.com" target="_blank" rel="noopener">IELTS Liz</a> for model answers, speaking questions, letters and the public band descriptors.</li>
+      <li><a href="https://www.ieltsadvantage.com" target="_blank" rel="noopener">IELTS Advantage</a> for free strategy articles on every section.</li>
+      <li><a href="https://ielts.cathoven.com/ielts/questions" target="_blank" rel="noopener">Cathoven</a> for free writing and speaking practice with instant AI feedback. It is useful for volume, but treat the score as a rough guide.</li>
+    </ul>
+    <h3>Feedback without a coach</h3>
+    <ul>
+      <li>Score every Writing piece against the public band descriptors on IELTS Liz, one criterion at a time.</li>
+      <li>Compare your letters and essays with the sample answers and examiner comments from the British Council and IDP.</li>
+      <li>Record Speaking answers, listen back, and have a friend or family member play the examiner for full mocks.</li>
+      <li>Rewrite the same piece after feedback. The second draft is where most of the improvement shows.</li>
+    </ul>
+    <p style="color:var(--muted); font-size:.9rem">Check each site for its current terms and which tests are free.</p>
+  </div>
+</section>
+
+<section id="testday">
+  <h2>Booking and test day</h2>
+  <div class="card">
+    <h3 style="margin-top:0">Before</h3>
+    <label class="check"><input type="checkbox" data-save="c1"> Confirm the expiry date of current results</label>
+    <label class="check"><input type="checkbox" data-save="c2"> Book IELTS General Training (not Academic), computer-delivered, at the earliest seat between Dec 4 and Dec 10</label>
+    <label class="check"><input type="checkbox" data-save="c3"> Check whether a backup date exists before the expiry</label>
+    <label class="check"><input type="checkbox" data-save="c4"> Confirm ID, test centre address and travel time</label>
+    <label class="check"><input type="checkbox" data-save="c5"> Do Mock 3 on a computer</label>
+    <h3>The day before and the day of</h3>
+    <label class="check"><input type="checkbox" data-save="c6"> Light review only, early night</label>
+    <label class="check"><input type="checkbox" data-save="c7"> Arrive early with the ID used for booking</label>
+    <label class="check"><input type="checkbox" data-save="c8"> Listening: type plural "s" and check spelling</label>
+    <label class="check"><input type="checkbox" data-save="c9"> Writing: about 20 minutes on Task 1, the rest on Task 2</label>
+  </div>
+</section>
+
+<section id="tracker">
+  <h2>Score tracker</h2>
+  <div class="card">
+    <p>Enter band scores (or raw scores for Listening and Reading). Your entries are saved in this browser on this device. They stay after the tab or browser is closed, but not if site data is cleared, a private window is used, or he switches to another browser or device.</p>
+    <div class="tablewrap">
+    <table>
+      <thead><tr><th>Mock</th><th>Listening</th><th>Reading</th><th>Writing</th><th>Speaking</th></tr></thead>
+      <tbody>
+        <tr><td>Mock 1</td><td><input type="text" data-save="m1l"></td><td><input type="text" data-save="m1r"></td><td><input type="text" data-save="m1w"></td><td><input type="text" data-save="m1s"></td></tr>
+        <tr><td>Mock 2</td><td><input type="text" data-save="m2l"></td><td><input type="text" data-save="m2r"></td><td><input type="text" data-save="m2w"></td><td><input type="text" data-save="m2s"></td></tr>
+        <tr><td>Mock 3</td><td><input type="text" data-save="m3l"></td><td><input type="text" data-save="m3r"></td><td><input type="text" data-save="m3w"></td><td><input type="text" data-save="m3s"></td></tr>
+        <tr><td>Real test</td><td><input type="text" data-save="rl"></td><td><input type="text" data-save="rr"></td><td><input type="text" data-save="rw"></td><td><input type="text" data-save="rs"></td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Raw-score and CLB guides are approximate. Check IRCC and the test centre for the official rules.
+</footer>
+
+<script>
+(function () {
+  var KEY = "ielts-plan-v1:";
+  function read(k) { try { return localStorage.getItem(KEY + k); } catch (e) { return null; } }
+  function write(k, v) { try { localStorage.setItem(KEY + k, v); } catch (e) {} }
+
+  var fields = document.querySelectorAll("[data-save]");
+  fields.forEach(function (el) {
+    var k = el.getAttribute("data-save");
+    var saved = read(k);
+    if (saved !== null) {
+      if (el.type === "checkbox") el.checked = saved === "1";
+      else el.value = saved;
+    }
+    el.addEventListener("input", function () {
+      write(k, el.type === "checkbox" ? (el.checked ? "1" : "0") : el.value);
+    });
+    el.addEventListener("change", function () {
+      write(k, el.type === "checkbox" ? (el.checked ? "1" : "0") : el.value);
+    });
+  });
+
+  var exp = document.getElementById("expiry");
+  if (exp) {
+    var s = read("expiry");
+    if (s !== null) exp.value = s;
+    exp.addEventListener("input", function () { write("expiry", exp.value); });
+  }
+})();
+</script>
+</body>
+</html>
